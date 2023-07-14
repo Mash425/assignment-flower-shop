@@ -1,0 +1,74 @@
+/*header file*/
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.header-section {
+    background: rgba(229, 84, 115, 0.10);
+    width: 1920px;
+    height: 850px;
+    display: flex;
+    gap: 97px;
+
+}
+.header-div{
+    display: flex;
+    
+}
+
+.div-contant{
+    margin-left: 240px;
+    margin-top: 190px;
+}
+.header-title{
+    color: #272727;
+font-size: 80px;
+font-weight: 700;  
+width: 700px; 
+margin-bottom: 32px; 
+}
+
+.header-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 600px;
+margin-bottom: 32px;
+}
+
+.pry-button{
+padding: 20px 43px;
+border-radius: 8px;
+background: #E55473;
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+margin-bottom: 147px;
+}
+
+ img{
+    width: 635px;
+    height: 800px;
+    margin: 50px 240px 0 0;
+
+}
+
+/*Main section*/
+.feature-flower{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin-top: 160px;
+margin-left: 764px;
+margin-right: 764px;
+}
+.feature-info{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin: 0 660px 50px 660px;
+}
