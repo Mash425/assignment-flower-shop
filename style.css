@@ -1,8 +1,11 @@
 /*header file*/
 
-body{
+body {
     font-family: 'Lato', sans-serif;
+    width: 1920px;
+    height: 4867px;
 }
+
 .header-section {
     background: rgba(229, 84, 115, 0.10);
     width: 1920px;
@@ -11,43 +14,45 @@ body{
     gap: 97px;
 
 }
-.header-div{
+
+.header-div {
     display: flex;
-    
+
 }
 
-.div-contant{
+.div-contant {
     margin-left: 240px;
     margin-top: 190px;
 }
-.header-title{
+
+.header-title {
     color: #272727;
-font-size: 80px;
-font-weight: 700;  
-width: 700px; 
-margin-bottom: 32px; 
+    font-size: 80px;
+    font-weight: 700;
+    width: 700px;
+    margin-bottom: 32px;
 }
 
-.header-paragraph{
+.header-paragraph {
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-width: 600px;
-margin-bottom: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 600px;
+    margin-bottom: 32px;
 }
 
-.pry-button{
-padding: 20px 43px;
-border-radius: 8px;
-background: #E55473;
-color: #FFF;
-font-size: 20px;
-font-weight: 700;
-margin-bottom: 147px;
+.pry-button {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 147px;
 }
 
- img{
+img {
     width: 635px;
     height: 800px;
     margin: 50px 240px 0 0;
@@ -55,58 +60,170 @@ margin-bottom: 147px;
 }
 
 /*Main section*/
-.feature-flower{
+.feature-flower {
     color: #272727;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
-margin-top: 160px;
-margin-left: 764px;
-margin-right: 764px;
-}
-.feature-info{
-    color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin: 0 660px 50px 660px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 160px;
+    margin-left: 764px;
+    margin-right: 764px;
 }
 
-.main-div-container{
+.feature-info {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 660px 50px 660px;
+}
+
+.main-div-container {
     display: flex;
     justify-content: space-between;
-    width: 1440px;
-    height: 538px;
+
 }
 
-.container-pic1 img{
+.container-pic1 img {
     width: 310px;
-height: 428px;
-padding: 110px 78px 0;
-border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
+    height: 428px;
+    padding: 110px 78px 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
 }
 
-.container-pic2 img{
+.container-pic2 img {
     width: 370px;
     height: 370px;
     border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
-padding: 117px 47px 51px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 51px;
 }
-.container-pic3 img{
+
+.container-pic3 img {
     width: 314px;
     height: 471px;
     border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
-padding: 65px 75px 0;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 65px 75px 0;
 }
-.para-info{
+
+.para-info {
     color: #272727;
-font-size: 24px;
-font-weight: 700;
-line-height: 35px; /* 145.833% */
-text-decoration-line: underline;
-text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.service-container {
+    display: flex;
+    margin: 100px 240px;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 54px 0px 0 0;
+}
+
+.div-main>img {
+    width: 88px;
+    height: 88px;
+    margin-left: 160px;
+
+}
+
+.div-main>p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/*discount section*/
+.discount-container {
+    display: flex;
+    gap: 215px;
+    width: 1922px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.discount>h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 230px;
+    margin-left: 423px;
+    margin-bottom: 24px;
+}
+
+.span1 {
+    color: #E55473;
+}
+
+.discount>p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    margin-left: 359px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 24px;
+    /* 166.667% */
+}
+
+.discount>button {
+    padding: 20px 43px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 500px;
+    border-radius: 8px;
+}
+
+.discount>img {
+    width: 318px;
+    height: 420px;
+    padding-top: 100px 429px 100px 0;
+}
+
+.ins-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 128px 870px 24px 870px;
+}
+
+.ins-discription {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 673px 40px 673px;
+    /* 166.667% */
+}
+
+.ins-img {
+    position: absolute;
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.ins-gap>img {
+    width: 300px;
+    height: 390px;
+}
+
+.deals-container {
+
+    background-image: url('Flower Asset/Rectangle 9.png');
 }
